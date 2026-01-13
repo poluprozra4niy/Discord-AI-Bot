@@ -1,0 +1,28 @@
+{
+  "name": "discord-dnd-ai-bot",
+  "version": "1.0.0",
+  "description": "AI-powered Discord bot for D&D assistance with character creation, dice rolling, content generation, and rules help",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "deploy": "node deploy-commands.js",
+    "dev": "node index.js"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "dnd",
+    "dungeons-dragons",
+    "ai",
+    "openai"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.3.1",
+    "express": "^4.22.1",
+    "openai": "^4.24.1"
+  }
+}
